@@ -1,0 +1,22 @@
+div{
+  margin-top: 2%;
+}
+
+.heading1	{
+  background-color: #3399ff;
+  color: white;
+  padding: 3vh;
+  font-size: 30px;
+  text-align: center;
+}
+
+.heading2	{
+  font-size: 25px;
+  margin: 3vh 0;
+}
+
+.body	{
+  font-size: 20px;
+  margin-bottom: 2vh;
+  line-height: 5vh; 
+}

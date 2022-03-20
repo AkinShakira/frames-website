@@ -1,0 +1,30 @@
+.top-nav ul	{
+  display: flex;  
+  flex-flow: row wrap;
+  background-color: grey;
+  height: 8vh;
+  justify-content: space-around;
+}
+
+.top-nav  li	{
+	flex: 1 auto;
+  border-right: 1px solid rgb(180, 166, 166);
+}
+
+.top-nav li:last-child  {
+  border-right: none;
+}
+
+.top-nav li a {
+	color: rgb(245, 245, 245);
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 2vh;
+}
+
+.top-nav li:hover, li:active {
+	background-color: green;
+	cursor: pointer;
+}

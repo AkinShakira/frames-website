@@ -1,0 +1,70 @@
+body	{
+	position: relative;
+}
+
+.main	{
+	display: flex;
+	flex-flow: row;
+	margin: 4vw;
+	height: 70vh;
+	overflow-y: auto;
+	justify-content: space-between;
+}
+
+.side-nav	{
+	flex: 0 15%;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.side-nav ul	{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100%;
+}
+
+.side-nav li	{
+	background-color: rgb(235, 235, 235);
+	flex: 1;
+	margin-bottom: 0.5vh;
+}
+
+.side-nav li:last-child	{
+	margin-bottom: 0;
+}
+
+.side-nav ul li a	{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 3vh 2vw 0 2vw;
+	overflow-x: wrap;
+}
+
+.side-nav a:link, a:visited	{
+	text-decoration: none;
+	color: #595959;	
+}
+
+.side-nav li:hover, li:active	{
+	background-color: #1c83a5;
+  cursor: pointer;
+}
+
+.side-nav li:hover a, li:active a	{
+  text-decoration: none;
+	color: white;
+}
+
+.iframe	{
+	flex-basis: 80%;	
+}
+
+iframe  {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
